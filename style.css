@@ -1,0 +1,41 @@
+#body{
+    background-color: #e8dab2;
+}
+
+#header{
+    height: 100vh;
+    padding: 0 24px;
+    position: relative;
+}   
+
+#header .cabecalho{
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+#header .titulo{
+    font-size: 26px;
+}
+#header .subtitulo{
+    font-size: 52px;
+}
+#header .img{
+    width: 370px;
+    position: absolute;
+    top: -9%;
+    transform: translateX(369%);
+    right: 0;
+}
+
+#section{
+    background-color: white;
+    width: 800px;
+    padding-top: 34px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+#section .h2{
+    font-size: 30px;
+}
